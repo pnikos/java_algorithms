@@ -14,6 +14,16 @@ public class Main {
 		mt2.show();
 		mt2.bubbleSortImproved();
 		mt2.show();
+		
+		MainTables mt3 = new MainTables();
+		mt3.show();
+		mt3.selectionSort();
+		mt3.show();
+		
+		MainTables mt4 = new MainTables();
+		mt4.show();
+		mt4.insertionSort();
+		mt4.show();
 	}
 
 }
